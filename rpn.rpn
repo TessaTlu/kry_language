@@ -1,0 +1,12 @@
+CRT A Int
+PUSH Var A
+PUSH Int 9999
+PUSH Int 111
+ADD 
+ASN
+CRT T Int
+PUSH Var T
+PUSH Var A
+PUSH Int 4
+ADD 
+ASN

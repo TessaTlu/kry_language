@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/grammar.cpp" "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/cmake-build-debug/CMakeFiles/KryaLanguage.dir/internal/krya/language/grammar/grammar.cpp.o"
   "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/token/KryaToken.cpp" "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/cmake-build-debug/CMakeFiles/KryaLanguage.dir/internal/krya/language/token/KryaToken.cpp.o"
   "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/main.cpp" "/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/cmake-build-debug/CMakeFiles/KryaLanguage.dir/main.cpp.o"
   )

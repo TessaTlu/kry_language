@@ -2,6 +2,7 @@
 -- Boost_INCLUDE_DIRS: /opt/homebrew/include
 -- Boost_LIBRARIES: Boost::regex
 -- Boost_VERSION: 1.78.0
+DONE
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/cmake-build-debug
+-- Build files have been written to: /Users/rasimgadziev/Desktop/study/cprj/KryaLanguage

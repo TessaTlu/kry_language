@@ -1,0 +1,6 @@
+crt A Int = 9999 + 111;
+
+crt T Int = A + 4;
+
+
+

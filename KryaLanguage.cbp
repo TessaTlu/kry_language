@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KryaLanguage"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KryaLanguage">
+				<Option output="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/KryaLanguage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_REGEX_NO_LIB"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 KryaLanguage"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KryaLanguage/fast">
+				<Option output="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/KryaLanguage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_REGEX_NO_LIB"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 KryaLanguage/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/assignable/assignable.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/data_type/data_type.cpp">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/data_type/data_type.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/expressions/expressions.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/grammar.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/lang/lang.cpp">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/lang/lang.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/lvalue/lvalue.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/non_terminal/non_terminal.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/operator/operator.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/rvalue/rvalue.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/var_declaration/var_declaration.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/token/token.cpp">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/token/token.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/main.cpp">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/BoostDetectToolset-1.78.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/Boost-1.78.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.78.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/../../../../../../opt/homebrew/lib/cmake/boost_regex-1.78.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_regex-1.78.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -129,6 +129,30 @@ KryaLanguage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KryaLanguage.dir/build.make CMakeFiles/KryaLanguage.dir/build
 .PHONY : KryaLanguage/fast
 
+internal/krya/language/grammar/grammar.o: internal/krya/language/grammar/grammar.cpp.o
+.PHONY : internal/krya/language/grammar/grammar.o
+
+# target to build an object file
+internal/krya/language/grammar/grammar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KryaLanguage.dir/build.make CMakeFiles/KryaLanguage.dir/internal/krya/language/grammar/grammar.cpp.o
+.PHONY : internal/krya/language/grammar/grammar.cpp.o
+
+internal/krya/language/grammar/grammar.i: internal/krya/language/grammar/grammar.cpp.i
+.PHONY : internal/krya/language/grammar/grammar.i
+
+# target to preprocess a source file
+internal/krya/language/grammar/grammar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KryaLanguage.dir/build.make CMakeFiles/KryaLanguage.dir/internal/krya/language/grammar/grammar.cpp.i
+.PHONY : internal/krya/language/grammar/grammar.cpp.i
+
+internal/krya/language/grammar/grammar.s: internal/krya/language/grammar/grammar.cpp.s
+.PHONY : internal/krya/language/grammar/grammar.s
+
+# target to generate assembly for a file
+internal/krya/language/grammar/grammar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KryaLanguage.dir/build.make CMakeFiles/KryaLanguage.dir/internal/krya/language/grammar/grammar.cpp.s
+.PHONY : internal/krya/language/grammar/grammar.cpp.s
+
 internal/krya/language/token/KryaToken.o: internal/krya/language/token/KryaToken.cpp.o
 .PHONY : internal/krya/language/token/KryaToken.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... KryaLanguage"
+	@echo "... internal/krya/language/grammar/grammar.o"
+	@echo "... internal/krya/language/grammar/grammar.i"
+	@echo "... internal/krya/language/grammar/grammar.s"
 	@echo "... internal/krya/language/token/KryaToken.o"
 	@echo "... internal/krya/language/token/KryaToken.i"
 	@echo "... internal/krya/language/token/KryaToken.s"
@@ -205,8 +232,4 @@ help:
 cmake_check_build_system:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
-
-
-
-
 

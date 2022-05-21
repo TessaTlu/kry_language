@@ -1,0 +1,3 @@
+/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/CMakeFiles/rebuild_cache.dir
+/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/CMakeFiles/edit_cache.dir
+/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/CMakeFiles/KryaLanguage.dir

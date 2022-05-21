@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/grammar.cpp">
+			<Option target="KryaLanguage"/>
+		</Unit>
+		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/grammar/grammar.h">
+			<Option target="KryaLanguage"/>
+		</Unit>
 		<Unit filename="/Users/rasimgadziev/Desktop/study/cprj/KryaLanguage/internal/krya/language/token/KryaToken.cpp">
 			<Option target="KryaLanguage"/>
 		</Unit>
